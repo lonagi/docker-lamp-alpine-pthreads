@@ -22,3 +22,11 @@ docker run --name webserver-zts -p 80:80 -e MYSQL_ROOT_PASSWORD=password docker-
 ### phpmyadmin
 
 URL - /phpmyadmin
+
+
+### Copy files
+
+```sh
+docker cp /hostfile  (container_id):/(to_the_place_you_want_the_file_to_be)
+
+```
