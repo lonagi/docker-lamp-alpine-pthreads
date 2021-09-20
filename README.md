@@ -18,3 +18,7 @@ docker build -t docker-lamp-alpine-pthreads
 docker run --name webserver-zts -p 80:80 -e MYSQL_ROOT_PASSWORD=password docker-lamp-alpine-pthreads
 
 ```
+
+### phpmyadmin
+
+URL - /phpmyadmin
