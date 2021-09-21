@@ -8,7 +8,7 @@ Firstly install docker and exec next:
 ```sh
 git clone https://github.com/lonagi/docker-lamp-alpine-pthreads
 cd ./docker-lamp-alpine-pthreads
-docker build -t docker-lamp-alpine-pthreads
+docker build -t docker-lamp-alpine-pthreads .
 
 ```
 
